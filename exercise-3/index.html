@@ -70,19 +70,23 @@
     <br><br>
     <form>
         <label>First name</label>
-        <input type="text" name="firstName"><br>
+        <input type="text" name="firstName" required><br>
         <label>Last Name</label>
-        <input type="text" name="lastName"><br>
+        <input type="text" name="lastName" required><br>
         <label>Address</label>
-        <input type="text" name="Address"><br>
+        <input type="text" name="address"><br>
         <label>Zip code</label>
         <input type="number" name="zipCode"><br>
         <label>City</label>
         <input type="text" name="city"><br>
         <label>Phone number</label>
-        <input type="number" name="phoneNumber"><br>
+        <input type="number" name="phoneNumber" required><br>
         <label>Email address</label>
         <input type="email" name="email"><br>
+        <label>Delivery options:</label><br>
+        <input type="radio" name="Standard">Standard
+        <input type="radio" name="Express">Express
+        <input type="radio" name="Home delivery">Home delivery
     </form>
 </body>
 </html>
